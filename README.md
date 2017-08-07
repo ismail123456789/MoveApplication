@@ -11,10 +11,36 @@ Statment Git
 --------------------------
 Description
 --------------------------
-
+com
+ +- example
+     +- myproject
+         +- Application.java
+         |
+         +- domain
+         |   +- Customer.java
+         |   +- CustomerRepository.java
+         |
+         +- service
+         |   +- CustomerService.java
+         |
+         +- web
+             +- CustomerController.java
 
 
 Run
 --------------------------
 mvn spring-boot:run
 
+
+Cod
+--------------------------
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
+public class Application {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+
+}
