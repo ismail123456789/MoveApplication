@@ -1,4 +1,4 @@
-package com.sampleProject;
+package com.sampleProject.model;
 
 /**
  * @author GPayments IT
