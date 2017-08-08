@@ -8,6 +8,19 @@ Statment Git
 - git log
 - git push origin master
  
+ and
+ 
+ cd path/to/directory
+ git init .
+ git add .
+ git commit -a -m "commit message goes here"
+ git clone git@github.com:albatrocity/gratuitator.git
+ git pull origin master
+ git push origin master
+ 
+ **OR**
+ git clone, git fetch, git pull, or git push to a remote repository using HTTPS 
+ 
 --------------------------
 Description
 --------------------------
